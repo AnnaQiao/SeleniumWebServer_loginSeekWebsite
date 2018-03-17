@@ -14,7 +14,7 @@ public class SeekTest{
   private WebDriver driver;
   @Before
   public void setUp() throws Exception {
-	 System.setProperty("webdriver.firefox.marionette", "D:/geckodriver.exe");
+	 System.setProperty("webdriver.firefox.marionette", "C:/geckodriver.exe");
 	 driver = new FirefoxDriver();
 	 driver.navigate().to("https://www.seek.co.nz/");
   }
