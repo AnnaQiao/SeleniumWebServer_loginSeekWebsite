@@ -12,6 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SeekTest{
   private WebDriver driver;
+  
   @Before
   public void setUp() throws Exception {
 	 System.setProperty("webdriver.firefox.marionette", "C:/geckodriver.exe");
